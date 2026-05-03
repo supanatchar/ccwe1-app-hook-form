@@ -43,7 +43,8 @@ const router = createBrowserRouter([
       },
     ],
   },
-  { basename: '/ccwe1-app-hook-form/' },
-]);
+],
+{ basename: '/ccwe1-app-hook-form/' },
+);
 
 export default router;
