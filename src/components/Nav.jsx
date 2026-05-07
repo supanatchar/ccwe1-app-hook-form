@@ -9,7 +9,8 @@ export default function NavBar() {
     <nav>
       <NavLink to="/">Shop</NavLink> |&nbsp;
       <NavLink to="/cart">Cart ({cartCount})</NavLink> |&nbsp;
-      <NavLink to="/Login">Login</NavLink>
+      <NavLink to="/login">Login</NavLink> |&nbsp;
+      <NavLink to='/register'>Register</NavLink>
     </nav>
   );
 }
