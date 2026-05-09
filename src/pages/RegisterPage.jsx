@@ -33,7 +33,7 @@ export default function RegisterPage() {
 
 return (
     <div className={styles.container}>
-        <h2 className={styles.title}>สมัครสมาชิค</h2>
+        <h2 className={styles.title}>สมัครสมาชิก</h2>
         <form onSubmit={handleSubmit(onSubmit)} className={styles.formCard}>
 
             <div className={styles.inputGroup}>
@@ -72,7 +72,7 @@ return (
                 }
             </div>
 
-            <button type='submit' className={styles.submitButton}>สมัครสมาชิค</button>
+            <button type='submit' className={styles.submitButton}>สมัครสมาชิก</button>
         </form>
     </div>
 )
